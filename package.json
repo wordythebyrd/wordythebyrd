@@ -6,6 +6,10 @@
   "bin": {
     "wordythebyrd": "./bin/card.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wordythebyrd/wordythebyrd.git"
+  },
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
