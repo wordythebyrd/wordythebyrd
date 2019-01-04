@@ -1,14 +1,10 @@
 {
-  "name": "bitandbang",
-  "version": "1.3.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "name": "wordythebyrd",
+  "version": "1.3.1",
+  "description": "A personal card for Andrew Byrd (@wordythebyrd)",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bnb/bitandbang.git"
+    "wordythebyrd": "./bin/card.js"
   },
   "scripts": {
     "prepublish": "npm run build",
@@ -25,7 +21,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Andrew Byrd <andrew@massivenerds.com> (https://wordythebyrd.github.io/)",
   "license": "MIT",
   "files": [
     "bin/card.js",
