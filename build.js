@@ -6,8 +6,7 @@ const boxen = require('boxen')
 const fs = require('fs')
 const path = require('path')
 
-// Define options for Boxen
-const options = {
+const boxenOptions = {
   padding: 2,
   margin: 1,
   borderStyle: 'double'
@@ -23,7 +22,7 @@ const data = {
   npm: chalk.gray('https://npmjs.com/') + chalk.cyan('~wordythebyrd'),
   github: chalk.gray('https://github.com/') + chalk.cyan('wordythebyrd'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.cyan('wordythebyrd'),
-  web: chalk.cyan('https://wordythebyrd.github.io/'),
+  web: chalk.cyan('https://andrewbyrd.dev'),
   npx: chalk.yellow('npx wordythebyrd'),
   labelWork: chalk.white.bold('       Work:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
@@ -59,4 +58,4 @@ const output = heading + // data.name + data.handle
                webing + newline + newline + // data.labelWeb + data.web
                carding // data.labelCard + data.npx
 
-fs.writeFileSync(path.join(__dirname, 'bin/output'), chalk.magenta(boxen(output, options)))
+fs.writeFileSync(path.join(__dirname, 'bin/output'), chalk.magenta(boxen(output, boxenOptions)))

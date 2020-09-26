@@ -11,9 +11,9 @@
     "url": "https://github.com/wordythebyrd/wordythebyrd.git"
   },
   "scripts": {
-    "prepublish": "npm run build",
+    "prepublish": "yarn build",
     "build": "node build.js",
-    "dev": "npm run build && node ./bin/card.js",
+    "dev": "yarn build && node ./bin/card.js",
     "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
