@@ -1,6 +1,6 @@
 {
   "name": "wordythebyrd",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A personal card for Andrew Byrd (@wordythebyrd)",
   "main": "/bin/card.js",
   "bin": {
